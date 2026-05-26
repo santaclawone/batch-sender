@@ -1,0 +1,3102 @@
+{
+  "total_batches": 172,
+  "total_sent": 258,
+  "total_unsent": 15728,
+  "batches": [
+    {
+      "batch": 0,
+      "num": "0000",
+      "total": 93,
+      "unique": 72,
+      "sent": 85,
+      "unsent": 8,
+      "avg_score": 71,
+      "industry": "🔧 Construction",
+      "preview": [
+        "John Sisk & Son",
+        "Jason Barrett BrickLaying Contractors",
+        "Shovlin Seamus",
+        "Joseph Barrett Contractors",
+        "Brehon Construction & Plant Hire Ltd",
+        "Devlin Construction"
+      ]
+    },
+    {
+      "batch": 1,
+      "num": "0001",
+      "total": 91,
+      "unique": 65,
+      "sent": 91,
+      "unsent": 0,
+      "avg_score": 81,
+      "industry": "🔧 Construction",
+      "preview": [
+        "BPOD Ltd prefabricated bathrooms",
+        "Brendan Woods Construction Ltd",
+        "Martin Fox & Sons Construction & Enginee",
+        "BD Brickwork Lmited",
+        "Corcrin Construction",
+        "Patrick O'Meara Architects Ltd"
+      ]
+    },
+    {
+      "batch": 2,
+      "num": "0002",
+      "total": 90,
+      "unique": 53,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 69,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Irish Life Assurance plc",
+        "Clonakilty Park Hotel",
+        "Celtic Ross Hotel Conference & Leisure C",
+        "Gougane Barra Hotel",
+        "Oriel House",
+        "Round Tower Hotel"
+      ]
+    },
+    {
+      "batch": 3,
+      "num": "0003",
+      "total": 96,
+      "unique": 42,
+      "sent": 1,
+      "unsent": 95,
+      "avg_score": 88,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Harvey's Point",
+        "Caisleáin Óir Annagry Letterkenny",
+        "Central Hotel",
+        "Fitzgerald's Hotel",
+        "GMIB.ie / Gallivan Murphy Insurance Brok",
+        "Temple Bar Inn"
+      ]
+    },
+    {
+      "batch": 4,
+      "num": "0004",
+      "total": 93,
+      "unique": 49,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 85,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Clayton Hotel Dublin Airport",
+        "Clifden Station House",
+        "Kingswood Hotel Citywest",
+        "Arlington Hotel",
+        "Clayton Hotel",
+        "Kylemore Pass"
+      ]
+    },
+    {
+      "batch": 5,
+      "num": "0005",
+      "total": 99,
+      "unique": 5,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 84,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Ballygarry Estate, Hotel and Spa",
+        "Butler Arms Hotel",
+        "Benners Hotel Tralee",
+        "Glenbeigh Hotel The",
+        "Gresham Metropole Hotel"
+      ]
+    },
+    {
+      "batch": 6,
+      "num": "0006",
+      "total": 95,
+      "unique": 45,
+      "sent": 10,
+      "unsent": 85,
+      "avg_score": 81,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Gresham Metropole Hotel",
+        "The Coachman's Hotel",
+        "The Killarney Park Hotel",
+        "Base Dingle",
+        "Naas Court Hotel",
+        "International Hotel"
+      ]
+    },
+    {
+      "batch": 7,
+      "num": "0007",
+      "total": 89,
+      "unique": 42,
+      "sent": 12,
+      "unsent": 77,
+      "avg_score": 73,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Caoga Insurance.",
+        "Zuni Restaurant & Boutique Hotel",
+        "Kilbrackan Arms",
+        "Farm Insurance 365",
+        "Commercial & Tourist Hotel",
+        "Maldron Hotel"
+      ]
+    },
+    {
+      "batch": 8,
+      "num": "0008",
+      "total": 92,
+      "unique": 51,
+      "sent": 16,
+      "unsent": 76,
+      "avg_score": 74,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Crowne Plaza The  (Dundalk)",
+        "Irish Life Assurance plc",
+        "Caoga Insurance.",
+        "Carrickdale Hotel",
+        "Four Seasons",
+        "Four Seasons Hotel Carlingford"
+      ]
+    },
+    {
+      "batch": 9,
+      "num": "0009",
+      "total": 85,
+      "unique": 30,
+      "sent": 22,
+      "unsent": 63,
+      "avg_score": 80,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Irish Life Assurance plc",
+        "GMIB.ie / Gallivan Murphy Insurance Brok",
+        "Jiffy Cabs",
+        "Castle Leslie Estate",
+        "Balcone Italiano Restaurant",
+        "Caoga Insurance."
+      ]
+    },
+    {
+      "batch": 10,
+      "num": "0010",
+      "total": 91,
+      "unique": 51,
+      "sent": 6,
+      "unsent": 85,
+      "avg_score": 81,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "O'Sheas Hotel",
+        "Ballykisteen Hotel & Golf Resort",
+        "Hodson Bay Hotel",
+        "Dooley's Hotel",
+        "Creggan Court Hotel",
+        "Claims Assist - Insurance Loss Assessors"
+      ]
+    },
+    {
+      "batch": 11,
+      "num": "0011",
+      "total": 99,
+      "unique": 68,
+      "sent": 1,
+      "unsent": 98,
+      "avg_score": 85,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Irish Life Assurance plc",
+        "Carrygerry Country House",
+        "Bunratty Manor Hotel",
+        "Vaughan Lodge",
+        "Auburn Lodge Hotel",
+        "National Insurance Ltd"
+      ]
+    },
+    {
+      "batch": 12,
+      "num": "0012",
+      "total": 88,
+      "unique": 64,
+      "sent": 3,
+      "unsent": 85,
+      "avg_score": 84,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Moroney Electrical Ltd",
+        "Evan Henry Electrical",
+        "Active Electrical",
+        "Derek Doyle Electrical",
+        "KTC Electrical",
+        "SAV Electrical & Securtiy Systems"
+      ]
+    },
+    {
+      "batch": 13,
+      "num": "0013",
+      "total": 92,
+      "unique": 16,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 80,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Con Dolan",
+        "Frances Hegarty & Co",
+        "KBG Chartered Accountants",
+        "Buckley Scriven O'Regan Accountants & Bu",
+        "Stainthorpe Electrical",
+        "KBG Chartered Accoutants"
+      ]
+    },
+    {
+      "batch": 14,
+      "num": "0014",
+      "total": 96,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 83,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "IFAC Accountants",
+        "Harvey McCrossan Ltd.",
+        "Seamus McDaid & Co",
+        "Chartered Accountants Ireland",
+        "Faughnan Financial Services",
+        "Hurley Accountancy Services"
+      ]
+    },
+    {
+      "batch": 15,
+      "num": "0015",
+      "total": 93,
+      "unique": 35,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 75,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Michael J Mccormack & Co",
+        "Chartered Accountants Ireland",
+        "Moylan & Associates Chartered Accountant",
+        "Avid Partners",
+        "Kieran O'Keeffe & Co. Chartered Accounta",
+        "FAH Chartered Accountants"
+      ]
+    },
+    {
+      "batch": 16,
+      "num": "0016",
+      "total": 98,
+      "unique": 33,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 79,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "IFAC Accountants Balla",
+        "KMR Accountants Ltd",
+        "FAH Chartered Accountants",
+        "C.M.F.",
+        "Burleigh Accountancy Group",
+        "Chartered Accountants Ireland"
+      ]
+    },
+    {
+      "batch": 17,
+      "num": "0017",
+      "total": 98,
+      "unique": 45,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 78,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Book Smart Accountancy",
+        "McCrystal D",
+        "Mulhern Leonard & Co",
+        "Casey Kavanagh & Co Chartered Accountant",
+        "McGowan Accountancy Services",
+        "Fiona Kelly & Co Accountants"
+      ]
+    },
+    {
+      "batch": 18,
+      "num": "0018",
+      "total": 97,
+      "unique": 45,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 77,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "Eugene Doyle & Co Ltd.",
+        "Shiel Kinnear",
+        "Stamp & Co.",
+        "R. Hendy & Co. Chartered Accountants",
+        "FHM Accountants",
+        "Heaney Keogh Chartered Accountants"
+      ]
+    },
+    {
+      "batch": 19,
+      "num": "0019",
+      "total": 92,
+      "unique": 38,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 71,
+      "industry": "🏨 Hotels",
+      "preview": [
+        "FAH Chartered Accountants",
+        "Clarkes Of Cavan",
+        "Shortens Garage LTD",
+        "Robert Kee Power Equipment RA Kee & Sons",
+        "Paul Cooney Sales Ltd.",
+        "BD Agri & Plant"
+      ]
+    },
+    {
+      "batch": 20,
+      "num": "0020",
+      "total": 89,
+      "unique": 40,
+      "sent": 0,
+      "unsent": 89,
+      "avg_score": 75,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Wilson Machinery",
+        "O'Halloran Plant Sales Ltd",
+        "Hi-Spec Engineering (EU) Ltd",
+        "Paul Cooney Sales Ltd.",
+        "Belmac Engineering Ltd",
+        "Rossmore Engineering Ltd"
+      ]
+    },
+    {
+      "batch": 21,
+      "num": "0021",
+      "total": 94,
+      "unique": 61,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 82,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Deltech Security",
+        "O'Toole Joe & Sons Ltd",
+        "Pro Safe Fire",
+        "Covert.ie",
+        "Paul Cooney Sales Ltd.",
+        "Deady Security"
+      ]
+    },
+    {
+      "batch": 22,
+      "num": "0022",
+      "total": 96,
+      "unique": 58,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 76,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Hall Alarms Ltd",
+        "Walsh Butler Electrical Services Ltd",
+        "Keepsafe Alarms Ltd",
+        "Ryetech",
+        "Coleman Electronics",
+        "Harris Security Installations"
+      ]
+    },
+    {
+      "batch": 23,
+      "num": "0023",
+      "total": 93,
+      "unique": 57,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 74,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Festina Lente Foundation",
+        "Flynn's Nurseries & Garden Centre",
+        "Cois na hAbhann",
+        "Blackwater Antiques",
+        "Abbey Owney Furniture",
+        "Vandeleur Walled Garden Ent. Centre"
+      ]
+    },
+    {
+      "batch": 24,
+      "num": "0024",
+      "total": 91,
+      "unique": 42,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 75,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "The Shed Company",
+        "C & S Sheds",
+        "Timbertrove O'Kelly's Sawmills",
+        "Redsetter Sheds",
+        "Clane Steel Garden Sheds Ltd.",
+        "Holdcroft Brothers Garden Sheds & Fencin"
+      ]
+    },
+    {
+      "batch": 25,
+      "num": "0025",
+      "total": 93,
+      "unique": 65,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 76,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Ballyfree Garden Sheds",
+        "Gibsons Farm Services",
+        "Kennelly Welding Works",
+        "Instaspace",
+        "Clane Steel Garden Sheds Ltd.",
+        "Gate Master"
+      ]
+    },
+    {
+      "batch": 26,
+      "num": "0026",
+      "total": 89,
+      "unique": 44,
+      "sent": 0,
+      "unsent": 89,
+      "avg_score": 75,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Talitech",
+        "Kierans Electrical & Security Systems",
+        "Dempsey's Car & Van Spares",
+        "Globe Metalworks Ltd",
+        "Lenarm Security",
+        "ETI Security Systems Ltd"
+      ]
+    },
+    {
+      "batch": 27,
+      "num": "0027",
+      "total": 89,
+      "unique": 67,
+      "sent": 1,
+      "unsent": 88,
+      "avg_score": 77,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "Pangur Glass Craft",
+        "Killybegs Marine Surveyors",
+        "Inspired-glass",
+        "Prokleen Window Cleaning Specialists",
+        "Munster Storage",
+        "Accord Window Systems Ltd"
+      ]
+    },
+    {
+      "batch": 28,
+      "num": "0028",
+      "total": 91,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 76,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "O'Reilly Glass Ltd",
+        "Drogheda Windscreen Centre",
+        "Atlas Window and Door Repairs",
+        "The Windscreen Centre",
+        "O'Rourke Windows & Glass Ltd",
+        "Fibreglass Mouldings Ltd"
+      ]
+    },
+    {
+      "batch": 29,
+      "num": "0029",
+      "total": 96,
+      "unique": 62,
+      "sent": 1,
+      "unsent": 95,
+      "avg_score": 82,
+      "industry": "🚜 Machinery/Farm",
+      "preview": [
+        "MR Cleaning Services",
+        "Fibreglass Mouldings Ltd",
+        "The Cleaning Corporation",
+        "KM Glass Design",
+        "Slaney Glass & Glazing Ltd",
+        "Youghal Glass Company"
+      ]
+    },
+    {
+      "batch": 30,
+      "num": "0030",
+      "total": 98,
+      "unique": 69,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 76,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Livingstone",
+        "James Gogarty Stone",
+        "West and Green Ltd",
+        "Francis Gogarty Headstones",
+        "Granite Tops Ireland",
+        "Navan Memorials - A Rennicks Headstones"
+      ]
+    },
+    {
+      "batch": 31,
+      "num": "0031",
+      "total": 90,
+      "unique": 67,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 70,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "KPW Print Management",
+        "Signz.ie",
+        "Design My Website",
+        "Murphy Print & Graphic Design Ltd",
+        "Elaine Foley Graphic Design",
+        "Designbay Limited"
+      ]
+    },
+    {
+      "batch": 32,
+      "num": "0032",
+      "total": 86,
+      "unique": 63,
+      "sent": 0,
+      "unsent": 86,
+      "avg_score": 80,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Dmac Media Ltd",
+        "Crimson Tree",
+        "Nathan Burke Photography & Design",
+        "WebMe",
+        "John Riordan Photography and Video",
+        "Simply Design"
+      ]
+    },
+    {
+      "batch": 33,
+      "num": "0033",
+      "total": 88,
+      "unique": 64,
+      "sent": 0,
+      "unsent": 88,
+      "avg_score": 79,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "M&S Food",
+        "Maxol Service Station Kilkenny",
+        "Sami Swoi",
+        "Maxol Service Station Garryowen",
+        "Maxol Service Station N7 Kill",
+        "Maxol Service Station Dooradoyle"
+      ]
+    },
+    {
+      "batch": 34,
+      "num": "0034",
+      "total": 92,
+      "unique": 76,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 79,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Daly's Waterloo Lodge",
+        "Greenmount House",
+        "Davitts Bar Restaurant & Guest House",
+        "Foley's Guesthouse and Restaurant",
+        "Cloncarlin Farm House",
+        "Curragh Plains"
+      ]
+    },
+    {
+      "batch": 35,
+      "num": "0035",
+      "total": 93,
+      "unique": 80,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 79,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Central House Bed & Breakfast Tipperary",
+        "Lough Derg House",
+        "Monaincha House & Health Spa",
+        "Anchorage B&B",
+        "Hanoras Cottage Guest House",
+        "Cawley's Hotel"
+      ]
+    },
+    {
+      "batch": 36,
+      "num": "0036",
+      "total": 96,
+      "unique": 62,
+      "sent": 2,
+      "unsent": 94,
+      "avg_score": 81,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Easy Reach Cleaning",
+        "Tidy Guy Home and Garden Maintenance",
+        "Roof SA",
+        "Attila The Hun Handyman Service",
+        "Mike’s Roofing & Home Improvements",
+        "Ray Cleaning Services"
+      ]
+    },
+    {
+      "batch": 37,
+      "num": "0037",
+      "total": 91,
+      "unique": 60,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 76,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Clean Home and More",
+        "Anthony Andrews Painting and Decorating",
+        "Stonemac Home Improvements Services",
+        "Murphy Facility Solutions",
+        "Squeeky Clean Contract Cleaning Ltd",
+        "Advance Cleaning Services"
+      ]
+    },
+    {
+      "batch": 38,
+      "num": "0038",
+      "total": 94,
+      "unique": 65,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 77,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Glamour Hair and Makeup by Breige",
+        "Hair By Nigel & Co",
+        "D&B Hair Designs",
+        "Laila Valentino Pro",
+        "Loft Hair Studio",
+        "Ritzys"
+      ]
+    },
+    {
+      "batch": 39,
+      "num": "0039",
+      "total": 96,
+      "unique": 34,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 72,
+      "industry": "🪨 Stone/Kitchens",
+      "preview": [
+        "Hardware Ireland",
+        "PC Henderson Ireland Ltd",
+        "Office and Ink",
+        "The Cope",
+        "Doors & Floors",
+        "Benner's Tralee"
+      ]
+    },
+    {
+      "batch": 40,
+      "num": "0040",
+      "total": 85,
+      "unique": 21,
+      "sent": 0,
+      "unsent": 85,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "PC Henderson Ireland Ltd",
+        "Sean McEntee Hardware and Fuels",
+        "iPadstands.ie",
+        "Talitech",
+        "The Laptop Shop",
+        "Aplus Computer Spare And Repair"
+      ]
+    },
+    {
+      "batch": 41,
+      "num": "0041",
+      "total": 94,
+      "unique": 24,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 67,
+      "industry": "📋 Various",
+      "preview": [
+        "The Laptop Shop",
+        "Sean McEntee Hardware and Fuels",
+        "Gaiacom",
+        "Trim Hardware",
+        "Tennyson Grass Machinery",
+        "Goldcrop Ltd"
+      ]
+    },
+    {
+      "batch": 42,
+      "num": "0042",
+      "total": 89,
+      "unique": 61,
+      "sent": 2,
+      "unsent": 87,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "PC Henderson Ireland Ltd",
+        "Killeen Bearings & Motor Factors Ltd.",
+        "Right Price Ink & Office Supplies",
+        "Talitech",
+        "Sean McEntee Hardware and Fuels",
+        "Topline Heavins & Euronics"
+      ]
+    },
+    {
+      "batch": 43,
+      "num": "0043",
+      "total": 87,
+      "unique": 55,
+      "sent": 5,
+      "unsent": 82,
+      "avg_score": 75,
+      "industry": "📋 Various",
+      "preview": [
+        "Fast Floor Screed Ltd",
+        "Just Flooring Ltd",
+        "Aston Crean",
+        "Precision Screed",
+        "PS Supplies",
+        "Floor Form Ireland"
+      ]
+    },
+    {
+      "batch": 44,
+      "num": "0044",
+      "total": 98,
+      "unique": 23,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 69,
+      "industry": "📋 Various",
+      "preview": [
+        "Tansey Transport",
+        "PB Haulage",
+        "Alan Nolan Transport (Belchem Ltd)",
+        "Phillips John Transport Ltd",
+        "Squirrel's Band",
+        "GSLS"
+      ]
+    },
+    {
+      "batch": 45,
+      "num": "0045",
+      "total": 98,
+      "unique": 30,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 73,
+      "industry": "📋 Various",
+      "preview": [
+        "Barsan global logistics",
+        "Wilson Bulk Transport Ltd",
+        "Abbey Murphy Insurance Brokers",
+        "Graham haulage transport",
+        "Martin Ryan & Sons",
+        "Alan Nolan Transport (Belchem Ltd)"
+      ]
+    },
+    {
+      "batch": 46,
+      "num": "0046",
+      "total": 99,
+      "unique": 42,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "O'Leary International",
+        "Ormonde James",
+        "Alan Nolan Transport (Belchem Ltd)",
+        "Ardinagh Construction Waste",
+        "M. Smith Haulage & Sons Ltd.",
+        "J P McKenna Bailieborough Dental Practic"
+      ]
+    },
+    {
+      "batch": 47,
+      "num": "0047",
+      "total": 98,
+      "unique": 57,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 69,
+      "industry": "📋 Various",
+      "preview": [
+        "Oscailt",
+        "SilverCloud Health",
+        "Blackrock Veterinary Clinic",
+        "Eye Clinic Dublin",
+        "Good Hands Healthcare",
+        "énergie Fitness Stepaside"
+      ]
+    },
+    {
+      "batch": 48,
+      "num": "0048",
+      "total": 83,
+      "unique": 50,
+      "sent": 0,
+      "unsent": 83,
+      "avg_score": 73,
+      "industry": "📋 Various",
+      "preview": [
+        "Ballyragget Veterinary Clinic",
+        "Stonehall Health",
+        "Abbey Veterinary Centre",
+        "IFPA Irish Family Planning Association",
+        "Zest",
+        "O'Donnell Dr Paul B.A.,B.Dent.Sc."
+      ]
+    },
+    {
+      "batch": 49,
+      "num": "0049",
+      "total": 97,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 73,
+      "industry": "📋 Various",
+      "preview": [
+        "Dr J.D. Finn",
+        "Bedford Medical Centre",
+        "IFPA Irish Family Planning Association",
+        "Lumi Red",
+        "All Creatures Vets",
+        "Laytown Veterinary Clinic"
+      ]
+    },
+    {
+      "batch": 50,
+      "num": "0050",
+      "total": 95,
+      "unique": 43,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 78,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "Snap Fitness Waterford",
+        "The Lismore Clinic",
+        "Caroline Rainsford Health Therapies",
+        "Newbee Publication",
+        "Specsavers Opticians & Audiologists - At",
+        "WellFit Red Light Therapy Clinic"
+      ]
+    },
+    {
+      "batch": 51,
+      "num": "0051",
+      "total": 94,
+      "unique": 49,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 71,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "Pembroke Dental",
+        "Avondale Veterinary Clinic – Tinahely Pr",
+        "Justin Moloney, BDentSc, MFD (RCSI) DChD",
+        "Animal Hospital Kilcoole",
+        "The Periodontal Suite",
+        "Whitebeam Coaching and Hypnotherapy"
+      ]
+    },
+    {
+      "batch": 52,
+      "num": "0052",
+      "total": 97,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 80,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "The National Screening Service",
+        "Caroline’s Breast Care",
+        "EAGLE HEALTHCARE LTD",
+        "Bergins Pharmacy",
+        "Donegal Womens Centre",
+        "Compliplus"
+      ]
+    },
+    {
+      "batch": 53,
+      "num": "0053",
+      "total": 94,
+      "unique": 40,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 59,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "Moggy Doggy Minders",
+        "O'Kelly Sutton",
+        "Longhill Dog Kennels and Cattery",
+        "PawSaga",
+        "Hollybarn Dog Training Ireland",
+        "Syrah Goldens Ireland"
+      ]
+    },
+    {
+      "batch": 54,
+      "num": "0054",
+      "total": 97,
+      "unique": 28,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 84,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "Icon Archaeology",
+        "TVAS Ireland Ltd",
+        "Alison McQueen & Associates Ltd",
+        "Archaeological Management Solutions",
+        "Cooney Architects",
+        "Cooney Architects MRIAI"
+      ]
+    },
+    {
+      "batch": 55,
+      "num": "0055",
+      "total": 90,
+      "unique": 45,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 76,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "PM Group",
+        "Shaffrey Landscaping",
+        "O'Loughlin Architects Ltd",
+        "CPM Architecture",
+        "McDermott Landscaping",
+        "Dalkey Paving & Landscaping"
+      ]
+    },
+    {
+      "batch": 56,
+      "num": "0056",
+      "total": 89,
+      "unique": 58,
+      "sent": 0,
+      "unsent": 89,
+      "avg_score": 76,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "Daniel Keane",
+        "Joseph Mackey Architects",
+        "John Slevin Landscaping & Garden Mainten",
+        "McKiernan Architects Ltd",
+        "Bluett & O'Donoghue",
+        "Gittens Murray Architects Ltd"
+      ]
+    },
+    {
+      "batch": 57,
+      "num": "0057",
+      "total": 66,
+      "unique": 37,
+      "sent": 0,
+      "unsent": 66,
+      "avg_score": 78,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "Fewer Harrington & Partners",
+        "mckenna + associates",
+        "Golden Grove Landscapes",
+        "Steve Noone Landscaping",
+        "Mark Stephens Architects",
+        "Wigham McGrath & Partners"
+      ]
+    },
+    {
+      "batch": 58,
+      "num": "0058",
+      "total": 98,
+      "unique": 34,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 78,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "J.M.B",
+        "Association Of Parents & Friends Of Ment",
+        "Dental Council The",
+        "Eleanor Sheehan Architects",
+        "Irish Association Of Funeral Directors I",
+        "Press Council of Ireland"
+      ]
+    },
+    {
+      "batch": 59,
+      "num": "0059",
+      "total": 93,
+      "unique": 22,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 75,
+      "industry": "🏥 Health/Vets",
+      "preview": [
+        "National Federation Of Group Water Schem",
+        "FORUM Connemara CLG",
+        "D O C H A S",
+        "Irish Society for Austism",
+        "Irish Haemophilia Society",
+        "Astronomy Ireland Headquarters"
+      ]
+    },
+    {
+      "batch": 60,
+      "num": "0060",
+      "total": 97,
+      "unique": 17,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "Tyrone Guthrie Centre The",
+        "Abbey View Residences",
+        "Navan Travellers Workshops Ltd",
+        "Irish Cattle & Sheep Farmers Assoc (ICSA",
+        "Local Enterprise Office Offaly",
+        "Local Enterprise Office Wexford"
+      ]
+    },
+    {
+      "batch": 61,
+      "num": "0061",
+      "total": 95,
+      "unique": 36,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Irish Heart Foundation",
+        "OMS Auto Parts",
+        "Tullamore & National Livestock Show",
+        "Irish Auto Parts",
+        "Tullow Agricultural Show",
+        "Tinahely Agricultural Show Society"
+      ]
+    },
+    {
+      "batch": 62,
+      "num": "0062",
+      "total": 94,
+      "unique": 21,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "CarFit Tyres & Wheels",
+        "Motor Salvage Irl",
+        "Irish Auto Parts",
+        "Qualvecom Ltd",
+        "Auto Care Dún Laoghaire",
+        "Pat Conlon Motors"
+      ]
+    },
+    {
+      "batch": 63,
+      "num": "0063",
+      "total": 94,
+      "unique": 31,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 75,
+      "industry": "📋 Various",
+      "preview": [
+        "Auto Care Naas",
+        "Assess Ireland",
+        "Cassidy Car Parts",
+        "Motor Salvage Irl",
+        "D.M. Motor Factors",
+        "Top Part Castlebar"
+      ]
+    },
+    {
+      "batch": 64,
+      "num": "0064",
+      "total": 96,
+      "unique": 29,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 74,
+      "industry": "📋 Various",
+      "preview": [
+        "Terraclean",
+        "Top Part Mullingar",
+        "Auto Care Kells",
+        "Irish Auto Parts",
+        "Speedyparts Direct Ltd",
+        "MCS Autofactors Ltd (Ford Parts Speciali"
+      ]
+    },
+    {
+      "batch": 65,
+      "num": "0065",
+      "total": 90,
+      "unique": 25,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "Auto Care Bray",
+        "CCCP Motor Factors",
+        "Tadgh Hawes Motor Parts",
+        "Irish Auto Parts",
+        "Toolforce",
+        "Express Motor Factors"
+      ]
+    },
+    {
+      "batch": 66,
+      "num": "0066",
+      "total": 86,
+      "unique": 15,
+      "sent": 0,
+      "unsent": 86,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Autocare Ltd",
+        "Motor Salvage Irl",
+        "Irish Auto Parts",
+        "Top Part",
+        "Auto Care Naas",
+        "Assess Ireland"
+      ]
+    },
+    {
+      "batch": 67,
+      "num": "0067",
+      "total": 93,
+      "unique": 31,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 71,
+      "industry": "📋 Various",
+      "preview": [
+        "Auto Care Kilkenny",
+        "Marren Oil Services",
+        "Motor Salvage Irl",
+        "Top Part Clonmel",
+        "Houlihan's Motor Factors",
+        "Autoline Motor Factors Ltd"
+      ]
+    },
+    {
+      "batch": 68,
+      "num": "0068",
+      "total": 97,
+      "unique": 55,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 82,
+      "industry": "📋 Various",
+      "preview": [
+        "Assess Ireland",
+        "Bungalow Farmhouse",
+        "Autocare Ltd",
+        "Ardree House",
+        "Ghan Hse",
+        "Butler House"
+      ]
+    },
+    {
+      "batch": 69,
+      "num": "0069",
+      "total": 90,
+      "unique": 52,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 84,
+      "industry": "📋 Various",
+      "preview": [
+        "Flair Showers Ltd",
+        "Recognition Express",
+        "Bathroom Design",
+        "Freedom Bathrooms & Stair Lifts",
+        "Furniture-Craft Ltd",
+        "Pat Kelleher & Sons"
+      ]
+    },
+    {
+      "batch": 70,
+      "num": "0070",
+      "total": 97,
+      "unique": 65,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Fieaga Living",
+        "Duffy's Plumbing and Heating",
+        "Daniel Whelan Tiling & Bathrooms",
+        "Bathroom Store",
+        "Noel O'Connell Plumbsource & Bathhaus",
+        "Commercial Tiling.ie"
+      ]
+    },
+    {
+      "batch": 71,
+      "num": "0071",
+      "total": 90,
+      "unique": 74,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "Emerald Beauty",
+        "Mint at the Pembroke Hotel",
+        "Maguire Hair and Beauty Supplies",
+        "Zenn Beauty Clinic",
+        "Elle No.5",
+        "The Orchard Salon & Day Spa"
+      ]
+    },
+    {
+      "batch": 72,
+      "num": "0072",
+      "total": 92,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 74,
+      "industry": "📋 Various",
+      "preview": [
+        "An Rothar",
+        "Utopia Spa",
+        "River Cycles",
+        "The BikeFit Physio",
+        "Mike's Bike Shop",
+        "Tow Fit"
+      ]
+    },
+    {
+      "batch": 73,
+      "num": "0073",
+      "total": 94,
+      "unique": 57,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "Board Room Bmx & Skates Ltd The",
+        "Top Bike",
+        "Outdoor Escape",
+        "Everest Cycles",
+        "Cycle Tech Ireland",
+        "Biking.ie"
+      ]
+    },
+    {
+      "batch": 74,
+      "num": "0074",
+      "total": 92,
+      "unique": 46,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "Rye Water Heating & Plumbing",
+        "Cross Hire Limited",
+        "Gaynor Plumbing & Heating",
+        "RD Plumbing",
+        "Kearns Eamonn Heating & Plumbing Ltd.",
+        "The Dublin Plumber"
+      ]
+    },
+    {
+      "batch": 75,
+      "num": "0075",
+      "total": 89,
+      "unique": 53,
+      "sent": 0,
+      "unsent": 89,
+      "avg_score": 74,
+      "industry": "📋 Various",
+      "preview": [
+        "IAASA",
+        "Atlas Professional Bookkeeping",
+        "Brian Golden & Associates",
+        "Quinn Barbara Book Keeping",
+        "McGuinness",
+        "Kilkenny Accounting Services"
+      ]
+    },
+    {
+      "batch": 76,
+      "num": "0076",
+      "total": 85,
+      "unique": 67,
+      "sent": 0,
+      "unsent": 85,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "Winters Print & Consumables",
+        "Smart Imaging",
+        "West Cork Auto Factors",
+        "New Century Publishing",
+        "Printmaster",
+        "JR Tyres & Auto Services"
+      ]
+    },
+    {
+      "batch": 77,
+      "num": "0077",
+      "total": 93,
+      "unique": 57,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 78,
+      "industry": "📋 Various",
+      "preview": [
+        "The Maintenance Man",
+        "DampRite",
+        "Collins Building & Steeplejack Services",
+        "Patrick Maher Master Decorator",
+        "Southern Ceilings Ltd",
+        "Handyman Dublin"
+      ]
+    },
+    {
+      "batch": 78,
+      "num": "0078",
+      "total": 94,
+      "unique": 49,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "Roger J Crowley Ltd",
+        "Snag List My Home Dublin",
+        "M.K. Architecture + Building Surveying (",
+        "Kelliher & Associates",
+        "Thermal Imagers",
+        "A-Com Surveys"
+      ]
+    },
+    {
+      "batch": 79,
+      "num": "0079",
+      "total": 97,
+      "unique": 37,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 74,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "mckenna + associates",
+        "Snag List My Home Dublin",
+        "Land and Aerial Surveys Ireland",
+        "Mernagh Nicholas MSCS MRICS",
+        "Quoteme.ie"
+      ]
+    },
+    {
+      "batch": 80,
+      "num": "0080",
+      "total": 96,
+      "unique": 39,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 82,
+      "industry": "📋 Various",
+      "preview": [
+        "Mackin Consultancy Ltd",
+        "Molloy Reynolds & Associates",
+        "Writeme",
+        "BACD Clg",
+        "Tawkr",
+        "Lumenia Consulting"
+      ]
+    },
+    {
+      "batch": 81,
+      "num": "0081",
+      "total": 96,
+      "unique": 25,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 83,
+      "industry": "📋 Various",
+      "preview": [
+        "lifebroker.ie",
+        "The Business of Food",
+        "Chill",
+        "Blocworx",
+        "Hession Energy",
+        "CUsafe Insurance"
+      ]
+    },
+    {
+      "batch": 82,
+      "num": "0082",
+      "total": 92,
+      "unique": 23,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 85,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "Irvine Training",
+        "CUsafe Insurance",
+        "lifebroker.ie",
+        "Memotech Limited",
+        "McGivney Frank & Co"
+      ]
+    },
+    {
+      "batch": 83,
+      "num": "0083",
+      "total": 92,
+      "unique": 25,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 85,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "Smartlift Bulk Packaging Ireland",
+        "New Ireland Assurance",
+        "ASSIST YOU",
+        "Getcover.ie",
+        "lifebroker.ie"
+      ]
+    },
+    {
+      "batch": 84,
+      "num": "0084",
+      "total": 98,
+      "unique": 16,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 84,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "Getcover.ie",
+        "Goggin Insurances",
+        "insuremyshop.ie",
+        "Campion Insurance",
+        "CUsafe Insurance"
+      ]
+    },
+    {
+      "batch": 85,
+      "num": "0085",
+      "total": 95,
+      "unique": 38,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 82,
+      "industry": "📋 Various",
+      "preview": [
+        "Tadgh Hawes Motor Parts",
+        "insuremyshop.ie",
+        "Mr Bullbar.com",
+        "Goggin Insurances",
+        "Automania",
+        "Blake Motoring Ltd"
+      ]
+    },
+    {
+      "batch": 86,
+      "num": "0086",
+      "total": 87,
+      "unique": 19,
+      "sent": 0,
+      "unsent": 87,
+      "avg_score": 86,
+      "industry": "📋 Various",
+      "preview": [
+        "J. F. Dunne Insurances Ltd",
+        "Naas Insurance & Finance",
+        "CUsafe Insurance",
+        "Goggin Insurances",
+        "Chill",
+        "Tyrrell Insurances & Auctioneers"
+      ]
+    },
+    {
+      "batch": 87,
+      "num": "0087",
+      "total": 99,
+      "unique": 19,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 86,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "CUsafe Insurance",
+        "Goggin Insurances",
+        "Lakeview Financial Consultants Ltd",
+        "O'Leary Insurances (Waterford) Ltd.",
+        "Premier Insurances"
+      ]
+    },
+    {
+      "batch": 88,
+      "num": "0088",
+      "total": 99,
+      "unique": 49,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "Lucey Motors",
+        "Kenny Bros Ltd",
+        "Kinsellas Salvage & Recovery",
+        "Travers Insurance Brokers",
+        "Brennan Bill Crash Repairs"
+      ]
+    },
+    {
+      "batch": 89,
+      "num": "0089",
+      "total": 91,
+      "unique": 43,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "Ned Murphy Tractors T/A Massey Salvage",
+        "Autoright",
+        "Abbey Scrap Cars",
+        "John Earls Motors",
+        "Ryan & Brien Ltd",
+        "Car Avenue Ltd."
+      ]
+    },
+    {
+      "batch": 90,
+      "num": "0090",
+      "total": 99,
+      "unique": 52,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 75,
+      "industry": "📋 Various",
+      "preview": [
+        "Hernon Mobile Valeting",
+        "Auto Shine Ballinrobe",
+        "Car Valet Centre",
+        "Ceramic Pro Meath Auto Detail Kings",
+        "N2 Auto Care",
+        "Pristine Autos Knocknacarra"
+      ]
+    },
+    {
+      "batch": 91,
+      "num": "0091",
+      "total": 84,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 84,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "Howdens - Ballymount",
+        "D&K carpentry",
+        "Emywood",
+        "Howdens - Ballyfermot",
+        "Kilgallon Stairs Ltd",
+        "Dan McDaid Builders Ltd"
+      ]
+    },
+    {
+      "batch": 92,
+      "num": "0092",
+      "total": 92,
+      "unique": 61,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 84,
+      "industry": "📋 Various",
+      "preview": [
+        "All Brite Carpet & Upholstery Cleaning",
+        "Chemdry Fingal",
+        "Chem-Dry Classic",
+        "Carpet Cleaning Ballincollig",
+        "Cork Cleaners",
+        "John O'Dwyer Carpentry Services"
+      ]
+    },
+    {
+      "batch": 93,
+      "num": "0093",
+      "total": 94,
+      "unique": 61,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 80,
+      "industry": "📋 Various",
+      "preview": [
+        "Chemdry Citywest",
+        "Dooley Vincent",
+        "Carpet cleaning solutions",
+        "Rugs.ie - Rugs Shop in Cork, Ireland",
+        "Dublin Carpet Binding",
+        "Des Kelly Carpets Ltd"
+      ]
+    },
+    {
+      "batch": 94,
+      "num": "0094",
+      "total": 96,
+      "unique": 55,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "Obsession Showroom",
+        "Chem-Dry Mayo",
+        "Cleanrestore",
+        "Martsworth",
+        "John Lynch Carpets",
+        "Classic Carpet Cleaning"
+      ]
+    },
+    {
+      "batch": 95,
+      "num": "0095",
+      "total": 87,
+      "unique": 30,
+      "sent": 0,
+      "unsent": 87,
+      "avg_score": 91,
+      "industry": "📋 Various",
+      "preview": [
+        "Heatco Fuel Depot",
+        "Bryan Lynch Finest Salads",
+        "Barrett Agri",
+        "Eddies Smokeless Fuels",
+        "Coughlan Fuels",
+        "O Donnell Fuels"
+      ]
+    },
+    {
+      "batch": 96,
+      "num": "0096",
+      "total": 94,
+      "unique": 17,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 85,
+      "industry": "📋 Various",
+      "preview": [
+        "CUsafe Insurance",
+        "Chill",
+        "insuremyshop.ie",
+        "Ultima Oil",
+        "lifebroker.ie",
+        "LossAssessor4u"
+      ]
+    },
+    {
+      "batch": 97,
+      "num": "0097",
+      "total": 88,
+      "unique": 14,
+      "sent": 0,
+      "unsent": 88,
+      "avg_score": 86,
+      "industry": "📋 Various",
+      "preview": [
+        "New Ireland Assurance",
+        "William Lyons Insurances Ltd",
+        "Getcover.ie",
+        "Trade Insurance 365",
+        "Goggin Insurances",
+        "insuremyshop.ie"
+      ]
+    },
+    {
+      "batch": 98,
+      "num": "0098",
+      "total": 92,
+      "unique": 16,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 86,
+      "industry": "📋 Various",
+      "preview": [
+        "Allied Financial",
+        "CUsafe Insurance",
+        "LowQuotes.ie",
+        "lifebroker.ie",
+        "Goggin Insurances",
+        "insuremyshop.ie"
+      ]
+    },
+    {
+      "batch": 99,
+      "num": "0099",
+      "total": 96,
+      "unique": 14,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 85,
+      "industry": "📋 Various",
+      "preview": [
+        "New Ireland Assurance",
+        "CUsafe Insurance",
+        "Lakeview Financial Consultants Ltd",
+        "Goggin Insurances",
+        "Getcover.ie",
+        "Chill"
+      ]
+    },
+    {
+      "batch": 100,
+      "num": "0100",
+      "total": 95,
+      "unique": 31,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 82,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Goggin Insurances",
+        "Sullivan Insurances & Financial Services",
+        "CUsafe Insurance",
+        "New Ireland Assurance",
+        "Travers Financial Planning Ltd",
+        "Getcover.ie"
+      ]
+    },
+    {
+      "batch": 101,
+      "num": "0101",
+      "total": 95,
+      "unique": 48,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 60,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Goggin Insurances",
+        "Kilfeather & Co",
+        "Marie J McCormack",
+        "Jones Magee Solicitors Bray",
+        "Benen Fahy Associates Solicitors",
+        "Brian Sweeney Commissioner for Oaths"
+      ]
+    },
+    {
+      "batch": 102,
+      "num": "0102",
+      "total": 97,
+      "unique": 68,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 74,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Niamh Barrett Computers",
+        "Dazult Ltd",
+        "McArdles Computers and Office Supplies",
+        "Woodford Diagnostic & Training Services",
+        "Equisoft Ltd",
+        "OSESTCO"
+      ]
+    },
+    {
+      "batch": 103,
+      "num": "0103",
+      "total": 98,
+      "unique": 60,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 83,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Ifrit Software",
+        "Midland Computers Ltd",
+        "Articad Ireland Ltd",
+        "Echo IT",
+        "Idaso Ltd",
+        "Dataworks Ltd"
+      ]
+    },
+    {
+      "batch": 104,
+      "num": "0104",
+      "total": 92,
+      "unique": 64,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 80,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Data Recovery",
+        "Computer Solutions",
+        "Host-it Ltd",
+        "Data Recovery.",
+        "Gary's Computer Repair Service",
+        "Netactive Solutions Ltd"
+      ]
+    },
+    {
+      "batch": 105,
+      "num": "0105",
+      "total": 88,
+      "unique": 64,
+      "sent": 0,
+      "unsent": 88,
+      "avg_score": 78,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Time 4 U Counselling",
+        "Steven O' Riordan Counselling and Psycho",
+        "SouthWest Counselling Centre",
+        "AdolEssence",
+        "Ballycorman Hypnotherapy & Hypno-Psychot",
+        "Liam Meates Counsellor"
+      ]
+    },
+    {
+      "batch": 106,
+      "num": "0106",
+      "total": 90,
+      "unique": 56,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 72,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Cancer Support Centre LARCC",
+        "Aspen Counselling",
+        "Community Drug Based Iniative",
+        "A Helping Mind",
+        "Association of Supervisors in Ireland",
+        "Fiona Barrett Therapy"
+      ]
+    },
+    {
+      "batch": 107,
+      "num": "0107",
+      "total": 85,
+      "unique": 17,
+      "sent": 0,
+      "unsent": 85,
+      "avg_score": 75,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "West Coast Aviation Shipping",
+        "Expert Air",
+        "Action Dispatch",
+        "All Trans",
+        "Cork Taxi Co-Op",
+        "Arpin International"
+      ]
+    },
+    {
+      "batch": 108,
+      "num": "0108",
+      "total": 87,
+      "unique": 57,
+      "sent": 0,
+      "unsent": 87,
+      "avg_score": 78,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "West Coast Aviation Shipping",
+        "Doolin Ferry",
+        "Curtain Workshop & Interiors",
+        "O'Keeffe McCarthy & O'Donovan Textiles L",
+        "Strand Interiors Ltd",
+        "Duffys Curtains"
+      ]
+    },
+    {
+      "batch": 109,
+      "num": "0109",
+      "total": 88,
+      "unique": 43,
+      "sent": 0,
+      "unsent": 88,
+      "avg_score": 63,
+      "industry": "🏦 Insurance",
+      "preview": [
+        "Ayrfield Windows",
+        "Gracey Customs Clearance",
+        "Bray Upholstery",
+        "Embankment Joinery",
+        "Royal Upholstery Ltd",
+        "Expert Windows"
+      ]
+    },
+    {
+      "batch": 110,
+      "num": "0110",
+      "total": 97,
+      "unique": 69,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 71,
+      "industry": "📋 Various",
+      "preview": [
+        "Wendy Playball",
+        "Kilkenny Academy of Dance",
+        "Fays Dancing Shoes",
+        "Acting Academy Swords",
+        "The Peelo School of Dance",
+        "Acting Academy Dunshaughlin"
+      ]
+    },
+    {
+      "batch": 111,
+      "num": "0111",
+      "total": 91,
+      "unique": 35,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 90,
+      "industry": "📋 Various",
+      "preview": [
+        "O'Donnell Orthodontist",
+        "Douglas West Dental Surgery",
+        "ORTHO Dublin",
+        "Dr. Ciaran Casey Dentist",
+        "Ballyfermot Dental Practice",
+        "Smiles Dental Blanchardstown"
+      ]
+    },
+    {
+      "batch": 112,
+      "num": "0112",
+      "total": 95,
+      "unique": 47,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "Bowe Dental Clinic",
+        "Cobbe Noelle BDS NUI",
+        "Moran Peter",
+        "Shields Dental & Implant Clinic",
+        "Friel and McGahon Dental",
+        "Dr Paul Redmond Dental Practice & Facial"
+      ]
+    },
+    {
+      "batch": 113,
+      "num": "0113",
+      "total": 90,
+      "unique": 37,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "Smiles Dental Wexford",
+        "NeoVision4K",
+        "Freesat.ie",
+        "Blackwell Donal A",
+        "Dental Tech Group Dentures Waterford",
+        "Dental Care Ireland - Carlow"
+      ]
+    },
+    {
+      "batch": 114,
+      "num": "0114",
+      "total": 90,
+      "unique": 61,
+      "sent": 0,
+      "unsent": 90,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "C C Fittings",
+        "Sat-Cam",
+        "McKenna Joe",
+        "Crossan Cablecomm",
+        "Larrys D.I.Y.",
+        "Seaside Interiors"
+      ]
+    },
+    {
+      "batch": 115,
+      "num": "0115",
+      "total": 99,
+      "unique": 82,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 80,
+      "industry": "📋 Various",
+      "preview": [
+        "Priory Veterinary Centre",
+        "Blue Collar Professional Dog Grooming",
+        "Dial a Dog Wash Mayo",
+        "Petland",
+        "Murphy and Me",
+        "Fitzsimons Dog Grooming"
+      ]
+    },
+    {
+      "batch": 116,
+      "num": "0116",
+      "total": 96,
+      "unique": 60,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "Bob Griffin's Bar",
+        "Noyeks Newmans",
+        "D & M Doors",
+        "Howdens - Galway",
+        "Topform Ltd",
+        "FCR Media"
+      ]
+    },
+    {
+      "batch": 117,
+      "num": "0117",
+      "total": 98,
+      "unique": 55,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 83,
+      "industry": "📋 Various",
+      "preview": [
+        "Dermot Mullin Locksmith Mayo",
+        "Colin Dunne Engineering Ltd",
+        "Hastings Insurance",
+        "Anthony John Windows",
+        "Hastings Insurance Brokers",
+        "FCR Media"
+      ]
+    },
+    {
+      "batch": 118,
+      "num": "0118",
+      "total": 95,
+      "unique": 67,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 73,
+      "industry": "📋 Various",
+      "preview": [
+        "Rathnure PVC",
+        "Burgess Department Store",
+        "Howdens - Athlone",
+        "Wright Window Systems",
+        "Edition Kitchens",
+        "Seamus Bracken Butcher Shop"
+      ]
+    },
+    {
+      "batch": 119,
+      "num": "0119",
+      "total": 98,
+      "unique": 69,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 80,
+      "industry": "📋 Various",
+      "preview": [
+        "Lehane Environmental",
+        "Glancy Enviro",
+        "Gannon Transport & Environmental Service",
+        "SOS Liquid Waste",
+        "Elphin Fitted Furniture Ltd",
+        "Eco Drains Ltd"
+      ]
+    },
+    {
+      "batch": 120,
+      "num": "0120",
+      "total": 98,
+      "unique": 53,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 75,
+      "industry": "📋 Various",
+      "preview": [
+        "Circular Energy",
+        "Tynagh Energy",
+        "GoKonnect Smart Home",
+        "Cobblestone Energy Europe Ltd",
+        "I Sec Ltd",
+        "ROC Energy Consulting Ltd"
+      ]
+    },
+    {
+      "batch": 121,
+      "num": "0121",
+      "total": 93,
+      "unique": 69,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 78,
+      "industry": "📋 Various",
+      "preview": [
+        "Fix-Line Ltd",
+        "Connect Electronics Ltd",
+        "Carr Engineering Supplies Ltd",
+        "Reagent Genie Ireland Limited",
+        "A.E.F. Ltd",
+        "Lyster Engineering"
+      ]
+    },
+    {
+      "batch": 122,
+      "num": "0122",
+      "total": 95,
+      "unique": 36,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 53,
+      "industry": "📋 Various",
+      "preview": [
+        "Paul Beattie Magician",
+        "Browne",
+        "themagician.ie",
+        "Billy Bonka’ Entertainment",
+        "Airtastic Entertainment Centre Kildare",
+        "Singers for Hire - Singing Waiters"
+      ]
+    },
+    {
+      "batch": 123,
+      "num": "0123",
+      "total": 93,
+      "unique": 63,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "Ticketmaster Outlet",
+        "Coopers Marquees",
+        "JMC Sats",
+        "Ticketmaster Outlet - Athlone",
+        "Bray Bowl",
+        "Dunne Eimear"
+      ]
+    },
+    {
+      "batch": 124,
+      "num": "0124",
+      "total": 97,
+      "unique": 45,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 75,
+      "industry": "📋 Various",
+      "preview": [
+        "Sherry FitzGerald Drumcondra Lettings",
+        "McElhinney Bundoran IAVI",
+        "Cronin Wall Properties",
+        "Kevin O'Flynn Estate Agent & Auctioneer",
+        "DNG Russell",
+        "JLL"
+      ]
+    },
+    {
+      "batch": 125,
+      "num": "0125",
+      "total": 92,
+      "unique": 42,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Kelly Hudson Properties",
+        "John F O Brien T/A Elite Estate Agents",
+        "Property Team Carey Auctioneers I.A.V.I.",
+        "Warren McCreery Property Consultants",
+        "Sherry Fitzgerald O'Reilly",
+        "Matt Dunne & Associates RICSSCSI"
+      ]
+    },
+    {
+      "batch": 126,
+      "num": "0126",
+      "total": 99,
+      "unique": 35,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Grimes Real Estate MIAVI",
+        "DF Properties Estate Agents",
+        "Property Partners JohnLittle",
+        "Flannelly Auctioneers",
+        "Lydon Farrell Property",
+        "Beattie Real Estate"
+      ]
+    },
+    {
+      "batch": 127,
+      "num": "0127",
+      "total": 97,
+      "unique": 42,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 71,
+      "industry": "📋 Various",
+      "preview": [
+        "REA Stokes and Quirke",
+        "DNG Flanagan Ford",
+        "Corcoran Noel Auctioneers MIPAV",
+        "O'Sullivan McGoldrick Ltd",
+        "Property Team",
+        "Cashel Mart Ltd"
+      ]
+    },
+    {
+      "batch": 128,
+      "num": "0128",
+      "total": 92,
+      "unique": 33,
+      "sent": 0,
+      "unsent": 92,
+      "avg_score": 66,
+      "industry": "📋 Various",
+      "preview": [
+        "Davitt & Davitt",
+        "Quinn Property",
+        "Warren Estates Ltd",
+        "Keane Auctioneers",
+        "Kinsella Estates",
+        "John Coyne Estates"
+      ]
+    },
+    {
+      "batch": 129,
+      "num": "0129",
+      "total": 99,
+      "unique": 68,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "Byrne H J & Co Ltd IAVI",
+        "Harry Brann Auctioneers & Valuers",
+        "Denise Kelleher & Associates Solicitors",
+        "Murphy Sean & Co",
+        "Briffa - Intellectual Property Lawyers",
+        "Eoin C. Daly Mallon"
+      ]
+    },
+    {
+      "batch": 130,
+      "num": "0130",
+      "total": 95,
+      "unique": 48,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 80,
+      "industry": "📋 Various",
+      "preview": [
+        "Joe Coonan Solicitors",
+        "J Cashell Solicitors",
+        "Frances Twomey & Co Solicitors",
+        "Field Solicitors",
+        "ANZ document solutions",
+        "Emerald Welcome Centre"
+      ]
+    },
+    {
+      "batch": 131,
+      "num": "0131",
+      "total": 87,
+      "unique": 43,
+      "sent": 0,
+      "unsent": 87,
+      "avg_score": 70,
+      "industry": "📋 Various",
+      "preview": [
+        "Cashin Clancy Solicitors",
+        "Huggard Brennan & Murphy",
+        "Joseph Nolan & Co",
+        "Limerick Family Planning Clinic",
+        "Douglas Medical Centre",
+        "JF Williams"
+      ]
+    },
+    {
+      "batch": 132,
+      "num": "0132",
+      "total": 89,
+      "unique": 51,
+      "sent": 0,
+      "unsent": 89,
+      "avg_score": 78,
+      "industry": "📋 Various",
+      "preview": [
+        "Rossenarra Stud",
+        "JP Murphy Bros Ltd",
+        "Ballygallon Stud",
+        "Barclay Chemicals Manufacturing Ltd",
+        "Sunnyhill Stud Ltd",
+        "Irish Dairy Services (IDS)"
+      ]
+    },
+    {
+      "batch": 133,
+      "num": "0133",
+      "total": 96,
+      "unique": 62,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 80,
+      "industry": "📋 Various",
+      "preview": [
+        "Cotton Caterpillars",
+        "JP Murphy Bros Ltd",
+        "Earls Engineering (Kiltullagh) Limited",
+        "Hanley & Co",
+        "Farm Wardrobe",
+        "Mi Chelle"
+      ]
+    },
+    {
+      "batch": 134,
+      "num": "0134",
+      "total": 85,
+      "unique": 65,
+      "sent": 0,
+      "unsent": 85,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "Country Kitchens",
+        "Robedesign Sliding Wardrobes",
+        "Kilsallagh Woodcraft",
+        "JD Kitchens & Bedrooms",
+        "Lakeland Interiors",
+        "DL Woodwork"
+      ]
+    },
+    {
+      "batch": 135,
+      "num": "0135",
+      "total": 95,
+      "unique": 73,
+      "sent": 0,
+      "unsent": 95,
+      "avg_score": 71,
+      "industry": "📋 Various",
+      "preview": [
+        "Forget Me Not Flowers And Gifts",
+        "Darling Buds Of May",
+        "Southgate Florist",
+        "Dunboyne Flowers",
+        "All Seasons Florists",
+        "Petals & Pressies"
+      ]
+    },
+    {
+      "batch": 136,
+      "num": "0136",
+      "total": 99,
+      "unique": 73,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 73,
+      "industry": "📋 Various",
+      "preview": [
+        "Galway Oyster Festival",
+        "Quality Food & Beverages",
+        "Chemist Connect",
+        "Terra Gourmet Foods & Wines Ltd.",
+        "Kylemore Acres Herbs",
+        "Corcoran Chemicals Ltd"
+      ]
+    },
+    {
+      "batch": 137,
+      "num": "0137",
+      "total": 91,
+      "unique": 65,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "The Lismore Food Company",
+        "2 Whey Power",
+        "Nuts & Grains",
+        "Regan Organic",
+        "IMCO Premium Foods Ltd.",
+        "Cais Na Tire"
+      ]
+    },
+    {
+      "batch": 138,
+      "num": "0138",
+      "total": 99,
+      "unique": 60,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "Tougher Oil",
+        "Naas Oil Co",
+        "Kerry Petroleum Ltd",
+        "Morris Oil",
+        "Tallaght Fuel Centre",
+        "Diesel Card Ireland"
+      ]
+    },
+    {
+      "batch": 139,
+      "num": "0139",
+      "total": 86,
+      "unique": 45,
+      "sent": 0,
+      "unsent": 86,
+      "avg_score": 56,
+      "industry": "📋 Various",
+      "preview": [
+        "Lakelands Funeral Home & Crematorium",
+        "Frederick Bogan Funeral Home",
+        "Terence O'Connor Funeral Home",
+        "Newline Oil Co Ltd",
+        "Gabriel & O Donovan's Funeral Homes",
+        "Michael Daly Undertakers"
+      ]
+    },
+    {
+      "batch": 140,
+      "num": "0140",
+      "total": 87,
+      "unique": 55,
+      "sent": 0,
+      "unsent": 87,
+      "avg_score": 67,
+      "industry": "📋 Various",
+      "preview": [
+        "O'Carroll's Funeral Home",
+        "Dignity Funeral Care Loughrea",
+        "The Gleasure Funeral Home",
+        "O'Shea's Funeral Home Ltd",
+        "William Ryan Funeral Directors",
+        "Dignity Funeral Care Portumna"
+      ]
+    },
+    {
+      "batch": 141,
+      "num": "0141",
+      "total": 96,
+      "unique": 76,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 71,
+      "industry": "📋 Various",
+      "preview": [
+        "Gerard Clarke & Sons Funeral Directors",
+        "Seamus Feehily and Son Funeral Directors",
+        "Gaynor's Funeral Directors",
+        "Foley & McGowan Funeral Directors",
+        "Sweeney Funeral Directors Roscommon",
+        "Needham Funeral Directors"
+      ]
+    },
+    {
+      "batch": 142,
+      "num": "0142",
+      "total": 89,
+      "unique": 60,
+      "sent": 0,
+      "unsent": 89,
+      "avg_score": 76,
+      "industry": "📋 Various",
+      "preview": [
+        "Patrick O'Donovan & Son Funeral Director",
+        "Thomas Murphy & Sons Funeral Directors",
+        "Kennedy Funeral Home",
+        "I.T. Revamp",
+        "ExpressTech",
+        "Kavanagh Funeral Home Bunclody"
+      ]
+    },
+    {
+      "batch": 143,
+      "num": "0143",
+      "total": 94,
+      "unique": 69,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 78,
+      "industry": "📋 Various",
+      "preview": [
+        "Cloonboo Tyres",
+        "Ailesbury Auto Services",
+        "EC Auto Diagnostics",
+        "Angels Garage",
+        "Town & Country Motor Factors",
+        "Auto Advisor Online"
+      ]
+    },
+    {
+      "batch": 144,
+      "num": "0144",
+      "total": 82,
+      "unique": 59,
+      "sent": 0,
+      "unsent": 82,
+      "avg_score": 73,
+      "industry": "📋 Various",
+      "preview": [
+        "Ryans Automotive",
+        "Pergola Nurseries",
+        "Safeway Tyres",
+        "Ballinasloe Garden Centre",
+        "Ballaghderg Garden Centre",
+        "Garden The"
+      ]
+    },
+    {
+      "batch": 145,
+      "num": "0145",
+      "total": 97,
+      "unique": 66,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "Donnybrook Hall",
+        "Bervie Accommodation",
+        "Riverside House",
+        "Albany House",
+        "Castle Lodge",
+        "Kilmurray House"
+      ]
+    },
+    {
+      "batch": 146,
+      "num": "0146",
+      "total": 98,
+      "unique": 21,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 88,
+      "industry": "📋 Various",
+      "preview": [
+        "Carlton Clinic",
+        "Ratoath Denture Clinic",
+        "Pure Wellbeing",
+        "Ryan James P & Sons Ltd",
+        "Counihan Colman",
+        "Griffin Peter A M.V.B. M.R.C.V.S."
+      ]
+    },
+    {
+      "batch": 147,
+      "num": "0147",
+      "total": 99,
+      "unique": 66,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "Axis Healthcare Consulting",
+        "Farmlab",
+        "Eoin Flynn Heating and Plumbing",
+        "Sustainable Safety Ltd",
+        "Prosper Meath",
+        "PGD Plumbing and Heating Services"
+      ]
+    },
+    {
+      "batch": 148,
+      "num": "0148",
+      "total": 98,
+      "unique": 40,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 84,
+      "industry": "📋 Various",
+      "preview": [
+        "RS Plumbing & Heating RGI - Registered G",
+        "Ahern Heating & Plumbing Services",
+        "Brian Smith Heating",
+        "HeatEx",
+        "Devaney Gerard",
+        "Sheridan Insurances"
+      ]
+    },
+    {
+      "batch": 149,
+      "num": "0149",
+      "total": 98,
+      "unique": 20,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "CUsafe Insurance",
+        "Chill",
+        "J. F. Dunne Insurances Ltd",
+        "Murray Orla Financial Services",
+        "Hennelly Finance",
+        "Goggin Insurances"
+      ]
+    },
+    {
+      "batch": 150,
+      "num": "0150",
+      "total": 94,
+      "unique": 16,
+      "sent": 0,
+      "unsent": 94,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "RM Gibbons",
+        "Lakeview Financial Consultants Ltd",
+        "Goggin Insurances",
+        "CUsafe Insurance",
+        "O'Leary Insurances (Waterford) Ltd."
+      ]
+    },
+    {
+      "batch": 151,
+      "num": "0151",
+      "total": 98,
+      "unique": 50,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "Travers Insurance Brokers",
+        "Chill",
+        "CUsafe Insurance",
+        "Goggin Insurances",
+        "Agria Ireland",
+        "O'Leary Insurances"
+      ]
+    },
+    {
+      "batch": 152,
+      "num": "0152",
+      "total": 93,
+      "unique": 35,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "Recovery Ireland",
+        "Osteopathic Council of Ireland",
+        "O'Donovan Insurances",
+        "Claims Assist - Insurance Loss Assessors",
+        "DNG McCormack Financial Sense",
+        "Your Homeopath"
+      ]
+    },
+    {
+      "batch": 153,
+      "num": "0153",
+      "total": 98,
+      "unique": 51,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "Highfield Veterinary Maynooth",
+        "Allcare Veterinary Centre Killarney",
+        "Beaufield Veterinary Centre",
+        "Listowel Animal HealthCare",
+        "Naas Vet Clinic",
+        "Vetcare Athy"
+      ]
+    },
+    {
+      "batch": 154,
+      "num": "0154",
+      "total": 98,
+      "unique": 33,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 81,
+      "industry": "📋 Various",
+      "preview": [
+        "Kelly's Resort Hotel & Spa",
+        "Eyre Square Hotel",
+        "Clayton Hotel Ballsbridge",
+        "Dergvale Hotel",
+        "Dooneen Equine Veterinary Clinic",
+        "The Mayson"
+      ]
+    },
+    {
+      "batch": 155,
+      "num": "0155",
+      "total": 96,
+      "unique": 46,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 77,
+      "industry": "📋 Various",
+      "preview": [
+        "Principal Environmental Services",
+        "Ozone Insulation Ltd",
+        "Bunclody Insulations Ltd",
+        "Floor.ie",
+        "Absolute Insulation Ltd",
+        "A Rate Your Attic"
+      ]
+    },
+    {
+      "batch": 156,
+      "num": "0156",
+      "total": 99,
+      "unique": 42,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 71,
+      "industry": "📋 Various",
+      "preview": [
+        "Air Pump & Tool Ltd",
+        "Principal Environmental Services",
+        "Anthony's House Venting Service",
+        "Ecomax Ltd",
+        "Murrays Roofing",
+        "Warm N Cosy Homes Ltd"
+      ]
+    },
+    {
+      "batch": 157,
+      "num": "0157",
+      "total": 93,
+      "unique": 27,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 72,
+      "industry": "📋 Various",
+      "preview": [
+        "First Call Claim Loss Assessors",
+        "Murray & Gillespie Quantity Surveyors Lt",
+        "PCLA - Property Claims Loss Assessors Lt",
+        "Eden Claims Management",
+        "Leinster Motor Assessors",
+        "Kelliher & Associates"
+      ]
+    },
+    {
+      "batch": 158,
+      "num": "0158",
+      "total": 93,
+      "unique": 16,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 88,
+      "industry": "📋 Various",
+      "preview": [
+        "New Ireland Assurance",
+        "Claims Assist - Insurance Loss Assessors",
+        "Getcover.ie",
+        "lifebroker.ie",
+        "CUsafe Insurance",
+        "LossAssessor4u"
+      ]
+    },
+    {
+      "batch": 159,
+      "num": "0159",
+      "total": 93,
+      "unique": 15,
+      "sent": 0,
+      "unsent": 93,
+      "avg_score": 85,
+      "industry": "📋 Various",
+      "preview": [
+        "Molloy Reynolds & Associates",
+        "Goggin Insurances",
+        "New Ireland Assurance",
+        "insuremyshop.ie",
+        "Getcover.ie",
+        "coverinaclick.ie"
+      ]
+    },
+    {
+      "batch": 160,
+      "num": "0160",
+      "total": 86,
+      "unique": 16,
+      "sent": 0,
+      "unsent": 86,
+      "avg_score": 88,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "insuremyshop.ie",
+        "coverinaclick.ie",
+        "New Ireland Assurance",
+        "lifebroker.ie",
+        "Quoteme.ie"
+      ]
+    },
+    {
+      "batch": 161,
+      "num": "0161",
+      "total": 96,
+      "unique": 12,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "coverinaclick.ie",
+        "Goggin Insurances",
+        "lifebroker.ie",
+        "CUsafe Insurance",
+        "Chill",
+        "Lakeview Financial Consultants Ltd"
+      ]
+    },
+    {
+      "batch": 162,
+      "num": "0162",
+      "total": 96,
+      "unique": 14,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 87,
+      "industry": "📋 Various",
+      "preview": [
+        "CUsafe Insurance",
+        "insuremyshop.ie",
+        "Goggin Insurances",
+        "Chill",
+        "Getcover.ie",
+        "coverinaclick.ie"
+      ]
+    },
+    {
+      "batch": 163,
+      "num": "0163",
+      "total": 96,
+      "unique": 17,
+      "sent": 0,
+      "unsent": 96,
+      "avg_score": 78,
+      "industry": "📋 Various",
+      "preview": [
+        "Chill",
+        "West Coast Aviation Shipping",
+        "New Ireland Assurance",
+        "insuremyshop.ie",
+        "Albatrans (IRL) Ltd.",
+        "Goggin Insurances"
+      ]
+    },
+    {
+      "batch": 164,
+      "num": "0164",
+      "total": 99,
+      "unique": 13,
+      "sent": 0,
+      "unsent": 99,
+      "avg_score": 80,
+      "industry": "📋 Various",
+      "preview": [
+        "West Coast Aviation Shipping",
+        "Eastway Logistics Ltd",
+        "DSV",
+        "Bizpost Ltd",
+        "Accurate International Investigation Ser",
+        "Martin Butterly & Co. Ltd."
+      ]
+    },
+    {
+      "batch": 165,
+      "num": "0165",
+      "total": 97,
+      "unique": 26,
+      "sent": 0,
+      "unsent": 97,
+      "avg_score": 83,
+      "industry": "📋 Various",
+      "preview": [
+        "Halo Investigations",
+        "Modern Ironworks",
+        "Oriain Investigations",
+        "Adare Ironworks Ltd.",
+        "Celtic IT Consultancy",
+        "Netactive Solutions Ltd"
+      ]
+    },
+    {
+      "batch": 166,
+      "num": "0166",
+      "total": 91,
+      "unique": 14,
+      "sent": 0,
+      "unsent": 91,
+      "avg_score": 90,
+      "industry": "📋 Various",
+      "preview": [
+        "Square Root",
+        "Osiz Technologies - Cryptocurrency Excha",
+        "Wolf Process Automation Ltd",
+        "Total Computer Solutions",
+        "Impero It Services",
+        "Aitina Tech"
+      ]
+    },
+    {
+      "batch": 167,
+      "num": "0167",
+      "total": 87,
+      "unique": 42,
+      "sent": 0,
+      "unsent": 87,
+      "avg_score": 84,
+      "industry": "📋 Various",
+      "preview": [
+        "Enits Technologies Limited",
+        "Tech Guard",
+        "Image IT Group",
+        "ADI Ltd",
+        "Gadget Geeks",
+        "Innovate Business Technology"
+      ]
+    },
+    {
+      "batch": 168,
+      "num": "0168",
+      "total": 86,
+      "unique": 33,
+      "sent": 0,
+      "unsent": 86,
+      "avg_score": 78,
+      "industry": "📋 Various",
+      "preview": [
+        "Eimear Vize Designs",
+        "Crossan Jewellers",
+        "Claddagh Jewellers",
+        "Lovefromme.ie",
+        "Inner Island",
+        "Yvonne Kelly Jewellery"
+      ]
+    },
+    {
+      "batch": 169,
+      "num": "0169",
+      "total": 98,
+      "unique": 40,
+      "sent": 0,
+      "unsent": 98,
+      "avg_score": 79,
+      "industry": "📋 Various",
+      "preview": [
+        "Eimear Vize Designs",
+        "McGuire Diamonds",
+        "Martina Hamilton",
+        "The Healers’ Dance",
+        "Walter Bourke",
+        "Brooks Jewellers"
+      ]
+    },
+    {
+      "batch": 170,
+      "num": "0170",
+      "total": 88,
+      "unique": 50,
+      "sent": 0,
+      "unsent": 88,
+      "avg_score": 77,
+      "industry": "💍 Fashion/Boutiques",
+      "preview": [
+        "Eimear Vize Designs",
+        "Button Studio",
+        "Eileen Hassett Jewellery Design",
+        "Diffusion-Wear Boutique",
+        "Carrick Silverware",
+        "Cotton Caterpillars"
+      ]
+    },
+    {
+      "batch": 171,
+      "num": "0171",
+      "total": 57,
+      "unique": 40,
+      "sent": 0,
+      "unsent": 57,
+      "avg_score": 80,
+      "industry": "💍 Fashion/Boutiques",
+      "preview": [
+        "Howdens - Finglas",
+        "Noyeks Newmans",
+        "Howdens - Tralee",
+        "SURREAL DESIGNS.ie",
+        "Campbell Furniture",
+        "Right Price Kitchens"
+      ]
+    }
+  ]
+}

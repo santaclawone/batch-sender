@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batch Sender — Site Audit Outreach</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #f8f7f4; color: #0f172a; min-height: 100vh; }
+
+  /* Header */
+  .header { background: #0f172a; color: white; padding: 28px 24px 20px; }
+  .header-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .header h1 { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
+  .header .sub { font-size: 13px; color: #94a3b8; margin-top: 2px; }
+  .header-stats { display: flex; gap: 20px; font-size: 13px; }
+  .header-stats span { color: #94a3b8; }
+  .header-stats strong { color: white; font-weight: 600; }
+
+  /* Connection badge */
+  .conn-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 500; }
+  .conn-online { background: #05966922; color: #34d399; border: 1px solid #05966944; }
+  .conn-offline { background: #dc262622; color: #f87171; border: 1px solid #dc262644; }
+  .conn-dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
+  .conn-online .conn-dot { background: #34d399; }
+  .conn-offline .conn-dot { background: #f87171; }
+
+  /* Controls */
+  .controls { max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .search-box { flex: 1; min-width: 200px; padding: 10px 16px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 14px; background: white; }
+  .search-box:focus { outline: none; border-color: #0d9488; box-shadow: 0 0 0 3px #0d948822; }
+  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { padding: 8px 16px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13px; font-weight: 500; background: white; cursor: pointer; transition: all .15s; }
+  .filter-btn:hover { border-color: #0d9488; }
+  .filter-btn.active { background: #0d9488; color: white; border-color: #0d9488; }
+  .filter-btn.all-btn { background: #0f172a; color: white; border-color: #0f172a; }
+
+  /* Batch grid */
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; }
+  .batch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; }
+
+  /* Batch card */
+  .batch-card { background: white; border-radius: 12px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); border: 1px solid #f1f5f9; transition: all .15s; }
+  .batch-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+  .batch-card.done { opacity: 0.55; }
+  .batch-card.done:hover { opacity: 0.75; }
+  .batch-card.sending { border-color: #0d9488; box-shadow: 0 0 0 1px #0d9488; }
+
+  .batch-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .batch-num { font-size: 14px; font-weight: 700; color: #0f172a; }
+  .batch-num .num { font-family: 'Playfair Display', serif; font-size: 20px; }
+  .batch-industry { font-size: 13px; }
+  .batch-stats { display: flex; gap: 12px; font-size: 12px; color: #64748b; margin-bottom: 10px; }
+  .batch-stats strong { color: #0f172a; font-weight: 600; }
+  .batch-preview { font-size: 11px; color: #94a3b8; line-height: 1.6; margin-bottom: 12px; max-height: 48px; overflow: hidden; }
+
+  /* Buttons */
+  .btn-send { display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; border: none; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all .15s; font-family: 'Inter', sans-serif; }
+  .btn-send.ready { background: #0d9488; color: white; }
+  .btn-send.ready:hover { background: #0f766e; }
+  .btn-send.sending { background: #f59e0b; color: white; cursor: wait; }
+  .btn-send.done-btn { background: #e2e8f0; color: #64748b; cursor: default; }
+  .btn-send.error { background: #dc2626; color: white; }
+
+  /* Progress bar */
+  .progress-wrap { height: 4px; background: #f1f5f9; border-radius: 2px; margin-top: 10px; overflow: hidden; }
+  .progress-bar { height: 100%; background: #0d9488; border-radius: 2px; transition: width .5s ease; }
+
+  /* Modal */
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 100; align-items: center; justify-content: center; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: white; border-radius: 16px; padding: 28px; max-width: 480px; width: 90%; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+  .modal h2 { font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 8px; }
+  .modal p { font-size: 14px; color: #475569; line-height: 1.6; margin-bottom: 16px; }
+  .modal .log-box { background: #f8f7f4; border-radius: 8px; padding: 12px; font-size: 12px; font-family: monospace; max-height: 200px; overflow-y: auto; margin-bottom: 16px; border: 1px solid #f1ede4; }
+  .modal .log-line { padding: 2px 0; color: #475569; }
+  .modal .log-line.sent { color: #059669; }
+  .modal .log-line.fail { color: #dc2626; }
+  .modal-close { padding: 10px 24px; border: 1px solid #e2e8f0; border-radius: 8px; background: white; font-size: 14px; cursor: pointer; font-family: 'Inter', sans-serif; }
+  .modal-close:hover { background: #f8f7f4; }
+
+  /* Empty */
+  .empty-state { text-align: center; padding: 60px 24px; color: #94a3b8; }
+  .empty-state h2 { font-family: 'Playfair Display', serif; font-size: 22px; color: #64748b; margin-bottom: 8px; }
+
+  /* Toast notification */
+  .toast { position: fixed; bottom: 24px; right: 24px; background: #0f172a; color: white; padding: 12px 20px; border-radius: 10px; font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); z-index: 200; opacity: 0; transform: translateY(10px); transition: all .3s; pointer-events: none; }
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  @media (max-width: 600px) {
+    .batch-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 20px; }
+    .controls { flex-direction: column; }
+    .filter-group { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <h1>Batch Sender</h1>
+      <div class="sub">Site Audit Outreach Pipeline</div>
+    </div>
+    <div class="header-stats" id="headerStats">
+      <span>Sent: <strong id="totalSent">—</strong></span>
+      <span>Unsent: <strong id="totalUnsent">—</strong></span>
+      <span>Batches: <strong id="totalBatches">—</strong></span>
+      <span id="connBadge" class="conn-badge conn-offline"><span class="conn-dot"></span> Server</span>
+    </div>
+  </div>
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <input type="text" class="search-box" id="searchBox" placeholder="Search batch number or industry..." oninput="renderBatches()">
+  <div class="filter-group" id="filterGroup">
+    <button class="filter-btn all-btn active" onclick="setFilter('all')">All</button>
+    <button class="filter-btn" onclick="setFilter('unsent')">Unsent</button>
+    <button class="filter-btn" onclick="setFilter('done')">Sent</button>
+  </div>
+</div>
+
+<!-- BATCHES -->
+<div class="container">
+  <div class="batch-grid" id="batchGrid"></div>
+  <div class="empty-state" id="emptyState" style="display:none;">
+    <h2>No batches match your filter</h2>
+    <p>Try a different search or filter.</p>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="sendModal">
+  <div class="modal">
+    <h2 id="modalTitle">Sending Batch 0021...</h2>
+    <p id="modalStatus">Sending 87 emails via Resend</p>
+    <div class="log-box" id="modalLog"></div>
+    <button class="modal-close" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ---- State ----
+let DATA = null;
+let filterMode = 'all';
+let activeJobs = {};  // batch_num -> { job_id, timeout }
+const SENT_KEY = 'batch_sender_sent';
+const LS = window.localStorage;
+
+function getLocalSent() {
+  try { return JSON.parse(LS.getItem(SENT_KEY) || '{}'); } catch { return {}; }
+}
+function setLocalSent(batch) {
+  const s = getLocalSent();
+  s[batch] = true;
+  LS.setItem(SENT_KEY, JSON.stringify(s));
+}
+
+// ---- Load data ----
+async function loadData() {
+  try {
+    const resp = await fetch('batches.json?' + Date.now());
+    DATA = await resp.json();
+    document.getElementById('totalSent').textContent = DATA.total_sent;
+    document.getElementById('totalUnsent').textContent = DATA.total_unsent;
+    document.getElementById('totalBatches').textContent = DATA.total_batches;
+    renderBatches();
+    checkServer();
+    return;
+  } catch (e) {
+    document.getElementById('batchGrid').innerHTML =
+      '<div class="empty-state"><h2>Failed to load batch data</h2><p>' + e.message + '</p></div>';
+  }
+}
+
+// ---- Server check ----
+async function checkServer() {
+  const badge = document.getElementById('connBadge');
+  try {
+    const resp = await fetch('http://127.0.0.1:5050/api/batch-status', { signal: AbortSignal.timeout(3000) });
+    if (resp.ok) {
+      badge.className = 'conn-badge conn-online';
+      const data = await resp.json();
+      // Merge server sent state into local state
+      mergeServerState(data);
+    } else {
+      badge.className = 'conn-badge conn-offline';
+    }
+  } catch {
+    badge.className = 'conn-badge conn-offline';
+  }
+}
+
+function mergeServerState(status) {
+  if (!DATA) return;
+  // We don't override local state from server for sent status
+  // Server is authoritative for current sends; local overrides for things done
+  // outside the page
+  const local = getLocalSent();
+  const sb = status.sent_by_batch || {};
+  for (const b in sb) {
+    // If server says it's fully sent, mark it
+    const batch = parseInt(b);
+    const info = DATA.batches.find(x => x.batch === batch);
+    if (info && sb[b] >= info.total) {
+      local[b] = true;
+    }
+  }
+  LS.setItem(SENT_KEY, JSON.stringify(local));
+  renderBatches();
+}
+
+// ---- Send batch ----
+async function sendBatch(batchNum) {
+  if (activeJobs[batchNum]) return;
+  
+  const local = getLocalSent();
+  if (local[batchNum]) return;
+  
+  const info = DATA.batches.find(x => x.batch === batchNum);
+  if (!info) return;
+  
+  // Open modal
+  const modal = document.getElementById('sendModal');
+  const log = document.getElementById('modalLog');
+  log.innerHTML = '';
+  document.getElementById('modalTitle').textContent = `Sending Batch ${info.num}...`;
+  document.getElementById('modalStatus').textContent = `Sending ${info.unsent} emails via Resend`;
+  modal.classList.add('open');
+  addLog('Starting send...', '');
+  
+  try {
+    const resp = await fetch(`http://127.0.0.1:5050/api/send-batch/${batchNum}`, {
+      method: 'POST',
+      signal: AbortSignal.timeout(5000),
+    });
+    const job = await resp.json();
+    
+    if (job.status !== 'started') {
+      addLog('Failed to start send job: ' + JSON.stringify(job), 'fail');
+      return;
+    }
+    
+    addLog(`Job started: ${job.job_id}`, '');
+    document.getElementById('modalTitle').textContent = `Sending Batch ${info.num}...`;
+    
+    // Update card
+    activeJobs[batchNum] = { job_id: job.job_id };
+    renderBatches();
+    
+    // Poll for completion
+    const poll = async () => {
+      try {
+        const r2 = await fetch(`http://127.0.0.1:5050/api/send-job/${job.job_id}`, {
+          signal: AbortSignal.timeout(10000),
+        });
+        const status = await r2.json();
+        
+        document.getElementById('modalStatus').textContent =
+          `Sent: ${status.sent} | Failed: ${status.failed} | Skipped: ${status.skipped} | Total: ${status.total || info.unsent}`;
+        
+        if (status.status === 'done') {
+          // Done!
+          addLog(`✅ Complete — ${status.sent} sent, ${status.failed} failed, ${status.skipped} skipped`, 'sent');
+          setLocalSent(batchNum);
+          delete activeJobs[batchNum];
+          renderBatches();
+          
+          // Update totals
+          if (DATA) {
+            DATA.total_sent += status.sent;
+            DATA.total_unsent -= status.sent;
+            document.getElementById('totalSent').textContent = DATA.total_sent;
+            document.getElementById('totalUnsent').textContent = DATA.total_unsent;
+            // Update batch info
+            const bi = DATA.batches.find(x => x.batch === batchNum);
+            if (bi) {
+              bi.sent = bi.total;
+              bi.unsent = 0;
+            }
+          }
+          document.getElementById('modalTitle').textContent = `Batch ${info.num} — Complete ✅`;
+          return;
+        }
+        
+        if (status.status === 'error') {
+          addLog('❌ Error: ' + (status.error || 'Unknown'), 'fail');
+          delete activeJobs[batchNum];
+          renderBatches();
+          return;
+        }
+        
+        // Still running — poll again
+        setTimeout(poll, 2000);
+      } catch (e) {
+        addLog('Poll error: ' + e.message, 'fail');
+        setTimeout(poll, 3000);
+      }
+    };
+    
+    // Start polling after a short delay
+    setTimeout(poll, 1000);
+    
+  } catch (e) {
+    addLog('Connection error: ' + e.message, 'fail');
+    addLog('Make sure the Hub server is running at http://127.0.0.1:5050', 'fail');
+  }
+}
+
+function addLog(msg, cls) {
+  const log = document.getElementById('modalLog');
+  const div = document.createElement('div');
+  div.className = 'log-line' + (cls ? ' ' + cls : '');
+  div.textContent = msg;
+  log.appendChild(div);
+  log.scrollTop = log.scrollHeight;
+}
+
+function closeModal() {
+  document.getElementById('sendModal').classList.remove('open');
+}
+
+// ---- Render ----
+function setFilter(mode) {
+  filterMode = mode;
+  document.querySelectorAll('#filterGroup .filter-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`#filterGroup .filter-btn[onclick*="'${mode}'"]`);
+  if (btn) btn.classList.add('active');
+  renderBatches();
+}
+
+function renderBatches() {
+  const grid = document.getElementById('batchGrid');
+  const empty = document.getElementById('emptyState');
+  const search = document.getElementById('searchBox').value.toLowerCase();
+  const local = getLocalSent();
+  
+  if (!DATA || !DATA.batches) return;
+  
+  let batches = DATA.batches.filter(b => {
+    if (search && !b.num.includes(search) && !b.industry.toLowerCase().includes(search)) return false;
+    const isSent = local[b.batch] || b.unsent === 0;
+    if (filterMode === 'unsent' && isSent) return false;
+    if (filterMode === 'done' && !isSent) return false;
+    return true;
+  });
+  
+  if (batches.length === 0) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+  
+  // Sort: unsent first, by batch number
+  batches.sort((a, b) => {
+    const aSent = local[a.batch] || a.unsent === 0;
+    const bSent = local[b.batch] || b.unsent === 0;
+    if (aSent && !bSent) return 1;
+    if (!aSent && bSent) return -1;
+    return a.batch - b.batch;
+  });
+  
+  grid.innerHTML = batches.map(b => {
+    const isSent = local[b.batch] || b.unsent === 0;
+    const isSending = !!activeJobs[b.batch];
+    const preview = (b.preview || []).join(', ');
+    const progress = b.total > 0 ? Math.round((b.sent / b.total) * 100) : 0;
+    
+    let btnClass = 'ready';
+    let btnText = '▶ Send';
+    let disabled = '';
+    
+    if (isSent) {
+      btnClass = 'done-btn';
+      btnText = '✅ Sent';
+      disabled = 'disabled';
+    } else if (isSending) {
+      btnClass = 'sending';
+      btnText = '⏳ Sending...';
+      disabled = 'disabled';
+    }
+    
+    const cardClass = isSent ? 'batch-card done' : (isSending ? 'batch-card sending' : 'batch-card');
+    
+    return `
+      <div class="${cardClass}">
+        <div class="batch-top">
+          <div class="batch-num">
+            <span class="num">${b.num}</span>
+          </div>
+          <div class="batch-industry">${b.industry}</div>
+        </div>
+        <div class="batch-stats">
+          <span>Score: <strong>${b.avg_score}</strong></span>
+          <span>Entries: <strong>${b.total}</strong></span>
+          <span>Unique: <strong>${b.unique}</strong></span>
+          ${!isSent ? `<span>Unsent: <strong>${b.unsent}</strong></span>` : ''}
+        </div>
+        <div class="batch-preview">${preview}</div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <button class="btn-send ${btnClass}" onclick="sendBatch(${b.batch})" ${disabled}>${btnText}</button>
+          ${!isSent && !isSending && b.unsent > 0 ? `<span style="font-size:11px;color:#94a3b8;">${b.unsent} unsent</span>` : ''}
+        </div>
+        ${isSent ? `<div class="progress-wrap"><div class="progress-bar" style="width:100%"></div></div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+// ---- Toast ----
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// ---- Init ----
+loadData();
+</script>
+</body>
+</html>
